@@ -1,6 +1,6 @@
 This is the github repo for the spandh project - Spain tourist guide<Br>
 <Br>
-Rules :-<Br><Br>
+Rules :-<Br>
 
 1> Dont sent spammy PULL REQ.s <Br>
 2> Be respectful in all communications.<Br>
