@@ -1,0 +1,122 @@
+Name           :    Style-Text Header 1 
+
+Description    :    BOLD LARGE HEADINGS
+Bold           :    Semi-Bold (font-weight: 600;)
+Italics        :    False
+Size           :    126px
+Letter spacing :    -2%
+Line height    :    90%
+Font Style     :    Encode Sans Condensed
+
+
+Name           :    Style-Text Header 1 - MONO
+
+Description    :    NON BOLD LARGE HEADING
+Bold           :    Regular (font-weight: 400;)
+Italics        :    False
+Size           :    126px
+Letter spacing :    -2%
+Line height    :    90%
+Font Style     :    Encode Sans Condensed
+
+
+Name           :    Style-Text Header 2
+
+Description    :    Normal Non bold header
+Bold           :    Regular (font-weight: 400;)
+Italics        :    False
+Size           :    40px
+Letter spacing :    -6%
+Line height    :    90%
+Font Style     :    Encode Sans Condensed
+
+
+Name           :    Style-Text Header 3
+
+Description    :    Normal bold header
+Bold           :    Semi-Bold (font-weight: 600;)
+Italics        :    False
+Size           :    40px
+Letter spacing :    -6%
+Line height    :    90%
+Font Style     :    Encode Sans Condensed
+
+
+Name           :    Style-Text Header 4
+
+Description    :    Small header
+Bold           :    Bold (font-weight: 700;)
+Italics        :    False
+Size           :    24px
+Letter spacing :    -2%
+Line height    :    90%
+Font Style     :    DM Sans
+
+
+
+Name           :    Style-Text Header 5
+
+Description    :    Smaller header (don't ask me why)
+Bold           :    Semi-Bold (font-weight: 600;)
+Italics        :    False
+Size           :    20px
+Letter spacing :    -2%
+Line height    :    90%
+Font Style     :    Encode Sans Semi Condensed
+
+
+
+Name           :    Style-Text Para 1
+
+Description    :    Bold paragraph text
+Bold           :    Semi-Bold (font-weight: 600;)
+Italics        :    False
+Size           :    32px
+Letter spacing :    -2%
+Line height    :    110%
+Font Style     :    Encode Sans Semi Condensed
+
+
+
+Name           :    Style-Text Para 2
+
+Description    :    NON Bold paragraph text
+Bold           :    Regular (font-weight: 500;)
+Italics        :    False
+Size           :    32px
+Letter spacing :    -2%
+Line height    :    110%
+Font Style     :    Encode Sans Semi Condensed
+
+
+Name           :    Style-Text Para 3
+
+Description    :    skinny & small paragraph text
+Bold           :    Regular (font-weight: 500;)
+Italics        :    False
+Size           :    17px
+Letter spacing :    -2%
+Line height    :    120%
+Font Style     :    Encode Sans Semi Condensed
+
+
+Name           :    Style-Text Para 4
+
+Description    :    Skinny but better
+Bold           :    Regular (font-weight: 500;)
+Italics        :    False
+Size           :    16px
+Letter spacing :    -2%
+Line height    :    110%
+Font Style     :    Encode Sans Semi Condensed
+
+
+Name           :    Style-Text Para 5
+
+Description    :    more skinny lol
+Bold           :    Regular (font-weight: 500;)
+Italics        :    False
+Size           :    12px
+Letter spacing :    -2%
+Line height    :    137%
+Font Style     :    Encode Sans Semi Condensed
