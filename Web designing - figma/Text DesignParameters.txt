@@ -120,3 +120,37 @@ Size           :    12px
 Letter spacing :    -2%
 Line height    :    137%
 Font Style     :    Encode Sans Semi Condensed
+
+
+
+Name           :    Style-Text Link
+
+Description    :    Link style
+Bold           :    Regular (font-weight: 500;)
+Italics        :    False
+Size           :    18px
+Letter spacing :    -2%
+Line height    :    110%
+Font Style     :    Encode Sans Semi Condensed
+
+
+Name           :    Style-Text Promotion
+
+Description    :    HMMMMMM
+Bold           :    Semi-Bold (font-weight: 600;)
+Italics        :    False
+Size           :    18px
+Letter spacing :    -2%
+Line height    :    110%
+Font Style     :    Encode Sans Semi Condensed
+
+
+Name           :    Style-Text Button
+
+Description    :    Button Text
+Bold           :    Regular (font-weight: 500;)
+Italics        :    False
+Size           :    13px
+Letter spacing :    -6%
+Line height    :    90%
+Font Style     :    Encode Sans Expanded
