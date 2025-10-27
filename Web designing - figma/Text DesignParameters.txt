@@ -73,7 +73,7 @@ Bold           :    Semi-Bold (font-weight: 600;)
 Italics        :    False
 Size           :    32px
 Letter spacing :    -2%
-Line height    :    110%
+Line height    :    128%
 Font Style     :    Encode Sans Semi Condensed
 
 
