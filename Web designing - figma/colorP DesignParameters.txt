@@ -45,3 +45,11 @@ Name           :    Devider - footer
 Description    :    Footer sections or Sections
 HEX Code       :    #575757
 transparacy    :    100%
+
+
+Name           :    Nav Bar
+
+Description    :    Navigation bar
+HEX Code       :    #EAE3D3
+transparacy    :    50%
+Effects        :    Background-Blur
