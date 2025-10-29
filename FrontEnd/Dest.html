@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De las islas al paladar</title>
+    <link rel="stylesheet" href="dest.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" style="font-weight: bold;">SolEspaña</a>
+        </div>
+        <div>
+            <a href="Dest.html">Destinos</a>
+            <a href="tips.html">Consejos</a>
+            <a href="Aboutus.html">Entre Bastidores</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <img src="Destination/Group 4-1.jpg" alt="De las islas al paladar" class="hero-bg">
+        <div class="hero-content">
+        <h1>De las islas<br>al paladar:</h1>
+        <p>Descubre los mundos de España</p>
+        </div>
+    </div>
+
+    <div class="cards-container">
+        <div class="card" onclick="openOverlay(0)">
+            <div class="card-image" style="background-image: url('BARCELONA_CARD_IMAGE_URL');"></div>
+            <div class="card-title">Barcelona</div>
+            <div class="card-description">Ciudad de arte y arquitectura</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(1)">
+            <div class="card-image" style="background-image: url('MADRID_CARD_IMAGE_URL');"></div>
+            <div class="card-title">Madrid</div>
+            <div class="card-description">Capital vibrante de cultura</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(2)">
+            <div class="card-image" style="background-image: url('SEVILLA_CARD_IMAGE_URL');"></div>
+            <div class="card-title">Sevilla</div>
+            <div class="card-description">Corazón del flamenco</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(3)">
+            <div class="card-image" style="background-image: url('VALENCIA_CARD_IMAGE_URL');"></div>
+            <div class="card-title">Valencia</div>
+            <div class="card-description">Ciudad de las artes y ciencias</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(4)">
+            <div class="card-image" style="background-image: url('GRANADA_CARD_IMAGE_URL');"></div>
+            <div class="card-title">Granada</div>
+            <div class="card-description">Joya de la arquitectura morisca</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(5)">
+            <div class="card-image" style="background-image: url('BILBAO_CARD_IMAGE_URL');"></div>
+            <div class="card-title">Bilbao</div>
+            <div class="card-description">Modernidad y tradición vasca</div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closeOverlay(event)">
+        <div class="overlay-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeOverlay()">&times;</button>
+            <div class="overlay-image" id="overlayImage"></div>
+            <div class="overlay-text">
+                <h2 id="overlayTitle">City Name</h2>
+                <h3>Description</h3>
+                <p id="overlayDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>SolEspaña</strong></p>
+        <p>TEAM - 2</p>
+        <p>©2025 SolEspaña</p>
+        <p>Ver - 1</p>
+    </footer>
+
+    <script src="dest.js">
+        
+    </script>
+</body>
+</html>
