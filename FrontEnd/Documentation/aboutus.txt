@@ -1,0 +1,96 @@
+# SolEspaña About Us Documentation
+
+## Overview
+The About Us page (Aboutus.html) introduces the team behind SolEspaña through a visually appealing and personal presentation of team members.
+
+## File Structure
+- Aboutus.html: Main HTML structure
+- aboutus.css: Stylesheet for About Us page
+- Images in "About us/" directory
+
+## Components
+
+### 1. Navigation Bar
+- Fixed position header
+- Semi-transparent with blur effect
+- Links to main sections:
+  - Homepage (SolEspaña)
+  - Destinos
+  - Consejos
+  - Entre Bastidores (current page)
+
+### 2. Hero Section
+- Background image: "About us/Group 4.jpg"
+- Title: "Entre Bastidores"
+- Subtitle: "Conoce al equipo que hace la magia posible"
+
+### 3. Team Member Profiles
+Each team member section includes:
+- Circular profile photo (150px × 150px)
+- Member role
+- Detailed information
+- Personal quote or statement
+
+Team Members:
+1. Shibraj Das
+2. Divansh Kaundal
+3. Nimisha Krishna VP
+4. Niyati Negi
+5. Kaushal Das
+
+### 4. Footer
+- SolEspánia branding
+- Team identifier (Team-2)
+- Copyright notice
+- Version information
+
+## Styling Features
+
+### 1. Layout
+- Flex-based team member cards
+- Responsive grid system
+- Proper spacing and alignment
+
+### 2. Typography
+- Font: Segoe UI with fallbacks
+- Hierarchical text sizing
+- Readable line heights
+
+### 3. Images
+- Circular cropping for profile photos
+- Responsive sizing
+- High-quality image compression
+
+### 4. Responsive Design
+Mobile optimization:
+- Stack layout on smaller screens
+- Adjusted image sizes
+- Preserved readability
+
+## Technical Details
+1. Image Handling
+   - Profile photos: 150px × 150px (desktop)
+   - Circular mask using border-radius
+   - Object-fit: cover for consistent appearance
+
+2. CSS Features
+   - Flexbox layouts
+   - CSS Grid for responsive design
+   - Smooth transitions
+   - Blur effects in navigation
+
+3. Performance Considerations
+   - Optimized images
+   - Minimal JavaScript usage
+   - Efficient CSS selectors
+
+## Accessibility
+- Alt text for images
+- Semantic HTML structure
+- Sufficient color contrast
+- Readable font sizes
+
+## Browser Support
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Fallbacks for older browsers
+- Progressive enhancement approach

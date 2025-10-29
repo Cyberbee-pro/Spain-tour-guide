@@ -1,0 +1,100 @@
+# SolEspaña Travel Tips Documentation
+
+## Overview
+The Tips page (tips.html) provides essential information for travelers planning to visit Spain, including climate information, current affairs, and practical travel advice.
+
+## File Structure
+- tips.html: Main HTML structure
+- tips.css: Stylesheet for tips page
+- Images in "tips/" directory
+
+## Components
+
+### 1. Navigation Bar
+- Consistent with main site navigation
+- Links to:
+  - Homepage (SolEspaña)
+  - Destinos
+  - Consejos (current page)
+  - Entre Bastidores
+
+### 2. Hero Section
+- Background image: "tips/Group 7.jpg"
+- Title: "Lo que debes saber antes de ir"
+- Subtitle: "Tu guía esencial de España"
+
+### 3. Content Sections
+
+#### Geography & Climate
+- Image: "Sierra Nevada mountains 1.jpg"
+- Regional climate breakdown:
+  - Northern Spain: Atlantic climate
+  - Central Spain: Continental climate
+  - Southern & Eastern coasts: Mediterranean
+  - Canary Islands: Subtropical
+
+#### Current Affairs (2025)
+- Image: "spain flag 1.jpg"
+- Topics covered:
+  - Political situation
+  - Safety and security
+  - Immigration policies
+  - Sustainability initiatives
+
+### 4. Information Layout
+- Alternating image and text sections
+- Clear headings and subheadings
+- Emphasized important points
+- Visual aids and supporting images
+
+## Styling Features
+
+### 1. Layout
+- Alternating left/right content sections
+- Responsive image placement
+- Clean typography hierarchy
+
+### 2. Visual Elements
+- High-quality supporting images
+- Consistent spacing
+- Clear visual hierarchy
+
+### 3. Responsive Design
+- Mobile-friendly layout
+- Flexible image sizing
+- Readable text at all screen sizes
+
+## Technical Implementation
+
+### 1. CSS Structure
+- Modular section styling
+- Flexible layouts using Flexbox/Grid
+- Mobile-first approach
+
+### 2. Image Handling
+- Optimized for web
+- Responsive sizing
+- Appropriate alt text
+
+### 3. Performance
+- Minimal JavaScript usage
+- Optimized asset loading
+- Efficient CSS selectors
+
+## Content Management
+1. Regular Updates
+   - Current affairs section
+   - Safety information
+   - Travel regulations
+
+2. Content Categories
+   - Geographic information
+   - Climate data
+   - Political updates
+   - Safety tips
+   - Environmental initiatives
+
+## Browser Support
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Responsive design support
+- Progressive enhancement

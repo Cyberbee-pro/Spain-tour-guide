@@ -1,0 +1,66 @@
+# SolEspaña Homepage Documentation
+
+## Overview
+The homepage (index.html) serves as the main landing page for the SolEspaña tour guide website. It provides visitors with an introduction to Spain and essential travel information.
+
+## File Structure
+- index.html: Main HTML structure
+- Style.css: Main stylesheet for the homepage
+
+## Components
+
+### 1. Navigation Bar
+- Fixed position at the top
+- Semi-transparent background with blur effect
+- Links to main sections:
+  - Destinos (Destinations)
+  - Consejos (Tips)
+  - Entre Bastidores (Behind the Scenes)
+
+### 2. Hero Section
+- Full viewport height
+- Background image: "Homepage/Espain-tinted.jpg"
+- Overlay text:
+  - Main heading: "Bienvenido a España"
+  - Subtext: "Respira el arte y el sabor"
+
+### 3. Introduction Section
+- Two-column layout
+- Left: Text description about Spain
+- Right: Landscape image ("Homepage/Spn2-tinted.jpg")
+
+### 4. Information Section
+- Key details about Spain
+- Information cards for:
+  - Currency (Euro)
+  - Official Languages
+  - Religion
+  - Time Zone
+
+### 5. Footer
+- Copyright information
+- Team details
+- Version number
+
+## Styling Features
+1. Color Scheme
+   - Background: Beige (#f5f5dc)
+   - Navigation: Semi-transparent gray with blur
+   - Text: Dark for readability
+
+2. Typography
+   - Primary font: Segoe UI
+   - Fallback fonts: Tahoma, Geneva, Verdana, sans-serif
+   - Line height: 1.6 for readability
+
+3. Responsive Design
+   - Flexible layouts
+   - Mobile-friendly navigation
+   - Responsive images
+
+## Technical Details
+- Language: Spanish (es)
+- Viewport: Responsive meta tag
+- CSS: External stylesheet (Style.css)
+- Image formats: JPG
+- Browser compatibility: Modern browsers with blur effect support

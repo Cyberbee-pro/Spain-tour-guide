@@ -1,0 +1,98 @@
+# SolEspaña Destinations Documentation
+
+## Overview
+The Destinations page (Dest.html) showcases various Spanish cities with interactive cards and detailed information overlays. It provides visitors with rich descriptions of major Spanish destinations.
+
+## File Structure
+- Dest.html: Main HTML structure
+- dest.css: Stylesheet for destinations page
+- dest.js: JavaScript for interactive features
+
+## Components
+
+### 1. Navigation Bar
+- Consistent with main site navigation
+- Links to:
+  - Homepage (SolEspaña)
+  - Destinos (Current page)
+  - Consejos (Tips)
+  - Entre Bastidores (About Us)
+
+### 2. Hero Section
+- Background image: "Destination/Group 4-1.jpg"
+- Title: "De las islas al paladar"
+- Subtitle: "Descubre los mundos de España"
+
+### 3. Destination Cards
+Interactive cards for major Spanish cities:
+1. Barcelona
+   - Description: Ciudad de arte y arquitectura
+   - Features: Gaudí architecture, Sagrada Familia, beaches
+
+2. Madrid
+   - Description: Capital vibrante de cultura
+   - Features: Museums, parks, nightlife
+
+3. Sevilla
+   - Description: Corazón del flamenco
+   - Features: Cathedral, Giralda, Santa Cruz quarter
+
+4. Valencia
+   - Description: Modern meets historical
+   - Features: City of Arts and Sciences, beaches
+
+5. Granada
+   - Features: Alhambra, Sierra Nevada, Moorish heritage
+
+6. Bilbao
+   - Features: Guggenheim Museum, Basque culture
+
+### 4. Interactive Features (dest.js)
+- Click-to-open overlay system
+- Dynamic content loading
+- Smooth transitions
+- City information stored in JavaScript array
+- Overlay controls for detailed city information
+
+## Technical Implementation
+
+### JavaScript Functions
+1. openOverlay(index)
+   - Opens detailed view
+   - Loads city-specific content
+   - Disables background scrolling
+
+2. closeOverlay()
+   - Closes detailed view
+   - Restores scrolling
+   - Handles event propagation
+
+### City Data Structure
+```javascript
+{
+    name: String,
+    description: String (in Spanish),
+    overlayImage: URL
+}
+```
+
+## Styling Features
+1. Card Design
+   - Hover effects
+   - Background images
+   - Descriptive text overlay
+
+2. Overlay Design
+   - Semi-transparent background
+   - Centered content
+   - Smooth animations
+
+3. Responsive Layout
+   - Grid-based card system
+   - Mobile-friendly design
+   - Flexible image handling
+
+## Browser Compatibility
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- JavaScript required
+- CSS Grid support needed
