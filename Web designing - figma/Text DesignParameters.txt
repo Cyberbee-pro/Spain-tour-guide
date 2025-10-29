@@ -154,3 +154,199 @@ Size           :    13px
 Letter spacing :    -6%
 Line height    :    90%
 Font Style     :    Encode Sans Expanded
+
+
+
+
+/* --- HEADERS --- */
+
+
+.roboto-mono-style {
+  /* Font Style */
+  font-family: 'Roboto Mono', monospace;
+
+  /* Bold (Regular) */
+  font-weight: 400;
+
+  /* Size */
+  font-size: 120px;
+
+  /* Line height */
+  line-height: 140%;
+
+  /* Letter spacing (-3%) */
+  letter-spacing: -0.03em;
+
+  /* Italics (implied False) */
+  font-style: normal;
+}
+
+
+.roboto-mono-style-2 {
+              font-size: 1.2em;
+            /* Font Style */
+            font-family: 'Roboto Mono', monospace;
+            /* Bold (Regular) */   
+            font-weight: 400;
+            /* Line height */
+            line-height: 140%;
+            /* Letter spacing (-3%) */
+            letter-spacing: -0.03em;
+            /* Italics (implied False) */
+            font-style: normal;
+}
+
+.style-text-header-1 {
+  /* Font Style */
+  font-family: 'Encode Sans Condensed', sans-serif;
+
+  /* Size */
+  font-size: 126px;
+
+  /* Bold (Semi-Bold) */
+  font-weight: 600;
+
+  /* Italics (False) */
+  font-style: normal;
+
+  /* Letter spacing (-2%) */
+  letter-spacing: -0.02em; 
+
+  /* Line height (90%) */
+  line-height: 90%;
+}
+
+
+.style-text-header-1-mono {
+  /* NON BOLD LARGE HEADING */
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 126px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 90%;
+}
+
+.style-text-header-2 {
+  /* Normal Non bold header */
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.06em;
+  line-height: 90%;
+}
+
+.style-text-header-3 {
+  /* Normal bold header */
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.06em;
+  line-height: 90%;
+}
+
+.style-text-header-4 {
+  /* Small header */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 90%;
+}
+
+.style-text-header-5 {
+  /* Smaller header (don't ask me why) */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 90%;
+}
+
+/* --- PARAGRAPHS --- */
+
+.style-text-para-1 {
+  /* Bold paragraph text */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 128%;
+}
+
+.style-text-para-2 {
+  /* NON Bold paragraph text */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+
+.style-text-para-3 {
+  /* skinny & small paragraph text */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+
+.style-text-para-4 {
+  /* Skinny but better */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+
+.style-text-para-5 {
+  /* more skinny lol */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 137%;
+}
+
+/* --- MISC --- */
+
+.style-text-link {
+  /* Link style */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+
+.style-text-promotion {
+  /* HMMMMMM */
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+}
+
+.style-text-button {
+  /* Button Text */
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.06em;
+  line-height: 90%;
+}

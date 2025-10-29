@@ -10,7 +10,7 @@
         }
 
         nav {
-            background-color: rgba(100, 100, 100, 0.85);
+            background-color: rgba(100, 100, 100, 0.56);
             padding: 15px 50px;
             display: flex;
             justify-content: space-between;
@@ -71,15 +71,32 @@
         }
 
         .hero h1 {
-            font-size: 4em;
-            font-weight: 300;
-            margin-bottom: 10px;
-            line-height: 1.2;
+            /* Font Style */
+        font-family: 'Roboto Mono', monospace;
+            /* Bold (Regular) */
+        font-weight: 400;
+            /* Size */
+        font-size: 120px;
+            /* Line height */
+        line-height: 110%;
+            /* Letter spacing (-3%) */
+        letter-spacing: -0.03em;
+            /* Italics (implied False) */
+        font-style: normal;
         }
 
         .hero p {
             font-size: 1.2em;
-            font-weight: 300;
+            /* Font Style */
+            font-family: 'Roboto Mono', monospace;
+            /* Bold (Regular) */   
+            font-weight: 400;
+            /* Line height */
+            line-height: 140%;
+            /* Letter spacing (-3%) */
+            letter-spacing: -0.03em;
+            /* Italics (implied False) */
+            font-style: normal;
         }
 
 
