@@ -1,0 +1,218 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5dc;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+
+        .hero {
+            height: 400px;
+            background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            padding-top: 104px;
+            color: white;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('HERO_IMAGE_URL_HERE');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 300;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 50px;
+        }
+
+        .info-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 50px;
+            align-items: flex-start;
+        }
+
+        .info-section.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .info-image {
+            width: 350px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .info-text {
+            flex: 1;
+        }
+
+        .info-text h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .info-text p {
+            margin-bottom: 15px;
+            line-height: 1.7;
+            color: #444;
+            font-size: 0.95em;
+        }
+
+        .info-text p strong {
+            font-weight: 600;
+            color: #222;
+        }
+
+        .section-title {
+            font-size: 2.2em;
+            text-align: center;
+            margin: 60px 0 50px 0;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .seasons-grid {
+            display: grid;
+            gap: 50px;
+        }
+
+        .season-item {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+
+        .season-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .season-image {
+            width: 350px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .season-content {
+            flex: 1;
+        }
+
+        .season-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .season-content p {
+            margin-bottom: 12px;
+            line-height: 1.7;
+            color: #444;
+            font-size: 0.95em;
+        }
+
+        .safety-section {
+            display: flex;
+            gap: 30px;
+            margin-top: 60px;
+            align-items: flex-start;
+        }
+
+        .safety-image {
+            width: 350px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .safety-content {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 30px 50px;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 968px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .info-section,
+            .info-section.reverse,
+            .season-item,
+            .season-item:nth-child(even),
+            .safety-section {
+                flex-direction: column;
+            }
+
+            .info-image,
+            .season-image,
+            .safety-image {
+                width: 100%;
+            }
+        }
