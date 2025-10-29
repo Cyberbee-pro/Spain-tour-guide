@@ -1,0 +1,62 @@
+Name           :    Style-color - White
+
+Description    :    White elements 
+HEX Code       :    #FFFFFF
+transparacy    :    100%
+
+
+Name           :    Style-Color - BLACK
+
+Description    :    Black components 
+HEX Code       :    #000000
+transparacy    :    100%
+
+
+Name           :    Style-color - accent
+
+Description    :    Accent for buttons and elements 
+HEX Code       :    #76C7C0
+transparacy    :    100%
+
+
+Name           :    Style-Color - back
+
+Description    :    Primary background color 
+HEX Code       :    #1E6F9F
+transparacy    :    100%
+
+
+Name           :    Style-Color - button
+
+Description    :    Button color
+HEX Code       :    #76C7C0
+transparacy    :    100%
+
+
+Name           :    Style-Color - button Hover
+
+Description    :    Hover button
+HEX Code       :    #4A7773
+transparacy    :    100%
+
+
+Name           :    Style-color - accent 2
+
+Description    :    Secondary Accent for buttons and elements
+HEX Code       :    #D0FBF9
+transparacy    :    100%
+
+
+Name           :    Devider - footer
+
+Description    :    Footer sections or Sections
+HEX Code       :    #575757
+transparacy    :    100%
+
+
+Name           :    Nav Bar
+
+Description    :    Navigation bar
+HEX Code       :    #ABA79C
+transparacy    :    50%
+Effects        :    Background-Blur
