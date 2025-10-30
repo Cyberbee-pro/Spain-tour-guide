@@ -1,0 +1,23 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- S letter -->
+  <path d="M 55 60 Q 40 60, 40 75 Q 40 85, 50 90 L 75 100 Q 85 105, 85 120 Q 85 135, 70 135 Q 55 135, 50 125" 
+        stroke="#C8B573" 
+        stroke-width="16" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- E letter -->
+  <path d="M 150 60 L 110 60 L 110 135 L 150 135 M 110 97 L 145 97" 
+        stroke="#A85F5F" 
+        stroke-width="16" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Accent dot above S -->
+  <circle cx="62" cy="40" r="5" fill="#D4C89A"/>
+  
+  <!-- Accent dot below E -->
+  <circle cx="130" cy="155" r="5" fill="#C8B573"/>
+</svg>
