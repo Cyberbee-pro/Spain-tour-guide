@@ -26,56 +26,62 @@
         <p>Descubre los mundos de España</p>
         </div>
     </div>
-
+    
     <div class="cards-container">
         <div class="card" onclick="openOverlay(0)">
             <div class="card-image" style="background-image: url('Destination/a.jpg');"></div>
             <div class="card-title">Andalucía</div>
             <div class="card-description">El Alma de España</div>
         </div>
-
         <div class="card" onclick="openOverlay(1)">
             <div class="card-image" style="background-image: url('Destination/b.jpg');"></div>
             <div class="card-title">Cataluña</div>
             <div class="card-description">Modernismo y Costa Mediterránea</div>
         </div>
-
         <div class="card" onclick="openOverlay(2)">
-            <div class="card-image" style="background-image: url('Destination/c.jpg');"></div>
+            <div class="card-image" style="background-image: url('Destination/c-3.jpg');"></div>
             <div class="card-title">Madrid y España Central</div>
             <div class="card-description">El Corazón Palpitante</div>
         </div>
-
         <div class="card" onclick="openOverlay(3)">
             <div class="card-image" style="background-image: url('Destination/d.jpg');"></div>
-            <div class="card-title">Valencia</div>
-            <div class="card-description">La Ciudad de las Artes y la Paella</div>
+            <div class="card-title">País Vasco</div>
+            <div class="card-description">Sabores y Modernidad</div>
         </div>
-
         <div class="card" onclick="openOverlay(4)">
             <div class="card-image" style="background-image: url('Destination/e.jpg');"></div>
-            <div class="card-title">Granada</div>
-            <div class="card-description">Joya de la arquitectura morisca</div>
+            <div class="card-title">Galicia</div>
+            <div class="card-description">Herencia Celta y Espiritualidad</div>
         </div>
-
         <div class="card" onclick="openOverlay(5)">
             <div class="card-image" style="background-image: url('Destination/f.jpg');"></div>
             <div class="card-title">Islas Canarias</div>
-            <div class="card-description">Costa Salvaje y Paraíso Gastronómico</div>
+            <div class="card-description">Paraíso Volcánico y Gastronómico</div>
         </div>
     </div>
 
-    <div class="overlay" id="overlay" onclick="closeOverlay(event)">
-        <div class="overlay-content" onclick="event.stopPropagation()">
-            <button class="close-btn" onclick="closeOverlay()">&times;</button>
-            <div class="overlay-image" id="overlayImage"></div>
-            <div class="overlay-text">
-                <h2 id="overlayTitle">City Name</h2>
-                <h3>Descripción</h3>
-                <p id="overlayDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+<div class="overlay" id="overlay" onclick="closeOverlay(event)">
+    <div class="overlay-content" onclick="event.stopPropagation()">
+        <button class="close-btn" onclick="closeOverlay()">&times;</button>
+        
+        <button class="nav-btn prev" id="prevBtn">&#10094;</button>
+        <button class="nav-btn next" id="nextBtn">&#10095;</button>
+
+
+        <div class="overlay-image-carousel" id="imageCarousel">
+            <div class="image-wrapper" id="imageWrapper">
+                </div>
+            
+            
+        </div>
+        
+        <div class="overlay-text">
+            <h2 id="overlayTitle">City Name</h2>
+            <h3>Descripción</h3>
+            <p id="overlayDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
     </div>
+</div>
 
     <footer>
         <p><strong>SolEspaña</strong></p>
@@ -84,8 +90,6 @@
         <p>Ver - 1</p>
     </footer>
 
-    <script src="dest.js">
-        
-    </script>
+    <script src="dest.js"></script>
 </body>
 </html>
