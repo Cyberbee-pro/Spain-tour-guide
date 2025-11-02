@@ -10,12 +10,18 @@
 <body>
     <nav>
         <div>
-            <a href="index.html" style="font-weight: bold;">SolEspaña</a>
+            <a href="index.html" class="logo">SolEspaña</a>
         </div>
-        <div>
+        <div class="nav-links">
             <a href="Dest.html">Destinos</a>
             <a href="tips.html">Consejos</a>
             <a href="Aboutus.html">Entre Bastidores</a>
+            <div class="language-select">
+                <select aria-label="Seleccionar idioma" onchange="window.location.href=this.value">
+                    <option value="Dest.html" selected>Español</option>
+                    <option value="SolEspania - En/Dest.html">English</option>
+                </select>
+            </div>
         </div>
     </nav>
 
@@ -85,9 +91,9 @@
 
     <footer>
         <p><strong>SolEspaña</strong></p>
-        <p>TEAM - 2</p>
+        <p>TEAM -2</p>
         <p>©2025 SolEspaña</p>
-        <p>Ver - 1</p>
+        <p>Release version - 2</p>
     </footer>
 
     <script src="dest.js"></script>

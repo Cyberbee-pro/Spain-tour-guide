@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Islands to Flavors</title>
+    <link rel="stylesheet" href="../dest.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" style="font-weight: bold;">SolEspaña</a>
+        </div>
+        <div>
+            <a href="Dest.html">Destinations</a>
+            <a href="tips.html">Tips</a>
+            <a href="Aboutus.html">About Us</a>
+            <div class="language-select">
+                <select aria-label="Select language" onchange="window.location.href=this.value">
+                    <option value="../Dest.html">Español</option>
+                    <option value="Dest.html" selected>English</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <img src="../Destination/Group 4-1.jpg" alt="From islands to flavors" class="hero-bg">
+        <div class="hero-content">
+        <h1>From the islands<br>to your plate:</h1>
+        <p>Discover the many faces of Spain</p>
+        </div>
+    </div>
+
+    <div class="cards-container">
+        <div class="card" onclick="openOverlay(0)">
+            <div class="card-image" style="background-image: url('../Destination/a.jpg');"></div>
+            <div class="card-title">Barcelona</div>
+            <div class="card-description">City of art and architecture</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(1)">
+            <div class="card-image" style="background-image: url('../Destination/b.jpg');"></div>
+            <div class="card-title">Madrid</div>
+            <div class="card-description">Vibrant cultural capital</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(2)">
+            <div class="card-image" style="background-image: url('../Destination/c.jpg');"></div>
+            <div class="card-title">Seville</div>
+            <div class="card-description">Heart of flamenco</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(3)">
+            <div class="card-image" style="background-image: url('../Destination/d.jpg');"></div>
+            <div class="card-title">Valencia</div>
+            <div class="card-description">Modern and historic</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(4)">
+            <div class="card-image" style="background-image: url('../Destination/e.jpg');"></div>
+            <div class="card-title">Granada</div>
+            <div class="card-description">Home of the Alhambra</div>
+        </div>
+
+        <div class="card" onclick="openOverlay(5)">
+            <div class="card-image" style="background-image: url('../Destination/f.jpg');"></div>
+            <div class="card-title">Bilbao</div>
+            <div class="card-description">Art and reinvention</div>
+        </div>
+    </div>
+
+    <!-- Overlay (image carousel + text). Matches original Dest.html structure so dest.js can operate. -->
+    <div class="overlay" id="overlay" onclick="closeOverlay(event)">
+        <div class="overlay-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeOverlay()">&times;</button>
+
+            <button class="nav-btn prev" id="prevBtn">&#10094;</button>
+            <button class="nav-btn next" id="nextBtn">&#10095;</button>
+
+            <div class="overlay-image-carousel" id="imageCarousel">
+                <div class="image-wrapper" id="imageWrapper">
+                </div>
+            </div>
+
+            <div class="overlay-text">
+                <h2 id="overlayTitle">City Name</h2>
+                <p id="overlayDescription">Description</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="dest.js"></script>
+
+    <footer>
+        <p><strong>SolEspaña</strong></p>
+        <p>TEAM -2</p>
+        <p>©2025 SolEspaña</p>
+        <p>Release version - 2</p>
+    </footer>
+</body>
+</html>

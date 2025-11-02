@@ -31,6 +31,104 @@
             font-size: 14px;
         }
 
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .language-select {
+            position: relative;
+            margin-left: 20px;
+            display: inline-block;
+        }
+
+        .language-select select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            color: white;
+            padding: 6px 30px 6px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .language-select::after {
+            content: '▼';
+            font-size: 8px;
+            color: rgba(255, 255, 255, 0.8);
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .language-select select:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .language-select select option {
+            background: #2a2a2a;
+            color: white;
+            font-size: 14px;
+        }
+
+        .logo {
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .language-select {
+            position: relative;
+            margin-left: 15px;
+            display: inline-block;
+        }
+
+        .language-select select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 5px 25px 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .language-select::after {
+            content: '▼';
+            font-size: 10px;
+            color: white;
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .language-select select:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .language-select select option {
+            background: #4a4a4a;
+            color: white;
+        }
+
         .hero {
             height: 100vh;
             display: flex;
