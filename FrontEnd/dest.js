@@ -5,7 +5,7 @@ const cities = [
     {
         name: "Andalucía",
         description: "Andalucía alberga algunas de las ciudades más cautivadoras de España —Sevilla, Granada y Córdoba—, cada una con un encanto e historia únicos. La región es reconocida como la cuna del flamenco, famosa por su vibrante vida callejera, su arquitectura morisca y la tradición de las corridas de toros. Su calendario cultural está lleno de festividades, como la Feria de Abril en Sevilla, una colorida celebración con baile, caballos y alegría; la Semana Santa, con solemnes procesiones y gran fervor religioso; y el Festival de las Cruces en Córdoba, donde las calles se llenan de flores y música. La gastronomía andaluza es igualmente destacada, con platos típicos como el gazpacho, el salmorejo, el jamón ibérico, las tapas y el vino de Jerez. Entre los lugares imprescindibles se encuentran la Plaza de España en Sevilla, la majestuosa Alhambra de Granada, la Mezquita-Catedral de Córdoba, el Real Alcázar y el pintoresco barrio del Albayzín.",
-        overlayImages: ["Destination/a.jpg", "Destination/a-1.jpg", "Destination/a-2.jpg","Destination/a-3.jpg","Destination/a-4.jpg", "Destination/a-5.jpg"]
+        overlayImages: ["Destination/a.jpg", "Destination/a-1.jpg", "Destination/a-2.jpg","Destination/a-3.jpg","Destination/a-4.jpg", "Destination/a-5.jpg","Destination/a-7.jpg","Destination/a-7.webp"]
     },
     {
         name: "Cataluña",
