@@ -7,7 +7,7 @@ const cities = [
     {
         name: "Andalusia",
         description: "Andalusia is home to some of Spain's most captivating cities —Seville, Granada and Córdoba— each with its own unique charm and history. The region is widely known as the birthplace of flamenco, with lively street life, Moorish architecture and deep-rooted traditions. Major festivals include Seville's Feria de Abril, solemn Semana Santa processions, and Córdoba's Festival of the Crosses. Andalusian cuisine features gazpacho, salmorejo, Iberian ham, tapas and Sherry wines. Must-see sights: Plaza de España (Seville), the Alhambra (Granada), the Mezquita-Cathedral (Córdoba), the Royal Alcázar, and the Albayzín quarter.",
-        overlayImages: ["../Destination/a.jpg", "../Destination/a-1.jpg", "../Destination/a-2.jpg", "../Destination/a-3.jpg", "../Destination/a-4.jpg", "../Destination/a-5.jpg"]
+        overlayImages: ["../Destination/a.jpg", "../Destination/a-1.jpg", "../Destination/a-2.jpg", "../Destination/a-3.jpg", "../Destination/a-4.jpg", "../Destination/a-5.jpg","../Destination/a-7.jpg","../Destination/a-7.webp"]
     },
     {
         name: "Catalonia",
@@ -20,7 +20,7 @@ const cities = [
         overlayImages: ["../Destination/c.jpg", "../Destination/c-1.jpg", "../Destination/c-2.jpg", "../Destination/c-3.jpg"]
     },
     {
-        name: "Basque Country",
+        name: "País Vasco",
         description: "The Basque Country, including San Sebastián and Bilbao, mixes tradition and modernity along the Cantabrian coast. Known for the Basque language (Euskera), strong cultural identity and a world-class culinary scene. Festivals include Semana Grande in San Sebastián and the Tamborrada drum festival. Famous dishes: pintxos, bacalao al pil-pil and Txakoli wine. Highlights: Guggenheim Museum, La Concha beach and the Old Town of Bilbao.",
         overlayImages: ["../Destination/d.jpg", "../Destination/d-1.jpg", "../Destination/d-2.jpg", "../Destination/d-3.jpg", "../Destination/d-4.jpg", "../Destination/d-5.jpg", "../Destination/d-6.jpg"]
     },
