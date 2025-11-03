@@ -314,12 +314,14 @@ nav a {
     background: transparent;
     color: white;
     border: none;
-    padding: 15px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
     cursor: pointer;
     z-index: 10;
     font-size: 1.5em;
-    user-select: none;
-    border-radius: 50%;
+    border-radius: 0;
 }
 
 
