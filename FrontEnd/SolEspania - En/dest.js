@@ -21,12 +21,12 @@ const cities = [
     },
     {
         name: "País Vasco",
-        description: "The Basque Country, including San Sebastián and Bilbao, mixes tradition and modernity along the Cantabrian coast. Known for the Basque language (Euskera), strong cultural identity and a world-class culinary scene. Festivals include Semana Grande in San Sebastián and the Tamborrada drum festival. Famous dishes: pintxos, bacalao al pil-pil and Txakoli wine. Highlights: Guggenheim Museum, La Concha beach and the Old Town of Bilbao.",
+        description: "The Basque Country/País Vasco, including San Sebastián and Bilbao, mixes tradition and modernity along the Cantabrian coast. Known for the Basque language (Euskera), strong cultural identity and a world-class culinary scene. Festivals include Semana Grande in San Sebastián and the Tamborrada drum festival. Famous dishes: pintxos, bacalao al pil-pil and Txakoli wine. Highlights: Guggenheim Museum, La Concha beach and the Old Town of Bilbao.",
         overlayImages: ["../Destination/d.jpg", "../Destination/d-1.jpg", "../Destination/d-2.jpg", "../Destination/d-3.jpg", "../Destination/d-4.jpg", "../Destination/d-5.jpg", "../Destination/d-6.jpg"]
     },
     {
         name: "Galicia",
-        description: "Galicia, with cities like Santiago de Compostela and A Coruña, offers a unique blend of Celtic heritage, spiritual pilgrimage and fog-kissed coastal landscapes. The Camino de Santiago remains central to the region's identity. Local dishes include Pulpo a la Gallega, Galician empanada and Albariño wine. Notable sites: Santiago Cathedral, the Tower of Hercules and Obradoiro Square.",
+        description: "Galicia, with cities like Santiago de Compostela and A Coruña, offers a unique blend of Celtic heritage, spirituality, and coastal landscapes shrouded in mist. Its culture is deeply tied to the Camino de Santiago, celebrated during the Festa do Apóstolo, and to festivities like A Coruña's Semana Grande, full of music, parades, and fireworks. Its cuisine is renowned for Pulpo a la Gallega, Galician Empanada, Albariño wine, and fresh seafood. Must-visit places include the Santiago Cathedral, the Tower of Hercules, and the Plaza del Obradoiro.",
         overlayImages: ["../Destination/e.jpg", "../Destination/e-1.jpg", "../Destination/e-2.jpg", "../Destination/e-3.jpg", "../Destination/e-4.jpg", "../Destination/e-5.jpg"]
     },
     {
